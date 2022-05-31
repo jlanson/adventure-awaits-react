@@ -1,5 +1,5 @@
 import React from "react";
-import "./AdventureContainer.css";
+import "./AdventureSection.css";
 import { Button } from "./Button";
 import "../App.css"
 
@@ -17,5 +17,7 @@ function AdventureSection() {
                     </Button>
                 </div>
         </div>
-    )
+    );
 }
+
+export default AdventureSection;
